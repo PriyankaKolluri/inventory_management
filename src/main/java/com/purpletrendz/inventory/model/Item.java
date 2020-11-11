@@ -10,6 +10,22 @@ public class Item {
     private String size;
     private String model;
 
+    public Item(){
+
+    }
+
+    public Item(String itemId, String itemName, String itemDescription, String color, Integer quantity, String size, String model){
+
+        this.itemId = itemId;
+        this.itemName = itemName;
+        this.itemDescription = itemDescription;
+        this.color = color;
+        this.quantity = quantity;
+        this.size = size;
+        this.model = model;
+
+    }
+
     public String getItemId() {
         return itemId;
     }
